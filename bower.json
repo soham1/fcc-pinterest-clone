@@ -17,7 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "Chart.js": "~1.0.2",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "Materialize": "materialize#~0.97.5",
+    "masonry": "~4.0.0"
   }
 }

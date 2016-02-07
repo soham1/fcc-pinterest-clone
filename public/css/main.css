@@ -3,27 +3,18 @@
     min-height: 300px;
 }
 
-.github {
-    padding-top: 4px;
-}
-
 .input {
     width: 700px !important;
 }
 
-.rmBtn {
-    margin-left: 10px;
+.grid-item {
+    width: 280px;
 }
 
-#moreBtn {
-    margin-left: 5px;
+.grid-item--width2 {
+    width: 400px;
 }
 
-.homeImg {
-    width: 128px;
-    height: 128px;
-}
-
-#url {
-    width: 700px !important;
+#mainContent {
+    min-height: 385px;
 }

@@ -1,0 +1,23 @@
+<% include layout-header %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <h2 class="header">Add a Pin</h2>
+    <div id="mainContent" class="row">
+      <form id="addPinForm" method="POST" action="/" class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Title" id="title" name="title" type="text" length="20" class="validate">
+            <label for="title">Title</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Pin URL" id="pinUrl" name="pinUrl" type="text" class="validate">
+            <label for="pinUrl">Pin URL</label>
+          </div>
+        </div>
+        <div class="row center">
+          <a onclick="document.getElementById('addPinForm').submit();" id="submit" class="btn #b9f6ca green accent-3 waves-effect waves-green">Add</a>
+        </div>
+      </form>
+  </div>
+<% include layout-footer %>

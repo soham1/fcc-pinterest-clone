@@ -1,7 +1,7 @@
 <% include layout-header %>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <h2 class="header">Recent</h2>
-  <div>
+  <h2 class="header">My Pins</h2>
+  <div id="mainContent">
     <div class="grid">
       <% for(var i=0 ; i < pins.length; i++) {%>
         <div class="grid-item">
@@ -20,4 +20,4 @@
         <%}%>
     </div>
   </div>
-  <% include layout-footer %>
+<% include layout-footer %>
