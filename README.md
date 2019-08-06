@@ -1,4 +1,4 @@
-#Pinterest Clone
+# Pinterest Clone
 
 This is a solution for http://www.freecodecamp.com/challenges/build-a-pinterest-clone
 
@@ -14,28 +14,28 @@ User Story: As an unauthenticated user, I can browse other users' walls of image
 
 User Story: As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
 
-##Screenshots:
+## Screenshots:
 
-###Homepage (Without logging in)
+### Homepage (Without logging in)
 <img src="images/Clone1.PNG">
 
-###Recent Page (With logging in)
+### Recent Page (With logging in)
 <img src="images/Clone2.PNG">
 
-###My Pins
+### My Pins
 <img src="images/Clone3.PNG">
 
-###Adding a Pin (By providing title and image URL)
+### Adding a Pin (By providing title and image URL)
 <img src="images/Clone4.PNG">
 
-###When we go back to Recent page, we see our newly added pin!
+### When we go back to Recent page, we see our newly added pin!
 <img src="images/Clone5.PNG">
 
-##Demo:
+## Demo:
 
 [![ScreenShot](images/VideoPicture.PNG)](https://youtu.be/a8ge6w4KSj0)
 
-##Technologies Used:
+## Technologies Used:
 - Node.js
 - Express
 - Masonry.js
